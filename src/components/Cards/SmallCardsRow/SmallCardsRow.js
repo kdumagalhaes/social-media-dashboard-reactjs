@@ -20,6 +20,7 @@ const SmallCardsRow = () => {
           socialNumber="87"
           arrowIcon={ArrowUpIcon}
           followersGrowing="3%"
+          followersStatisticsColor="var(--lime-green)"
         />
         <SmallCard
           typeOfCount="Likes"
@@ -28,6 +29,7 @@ const SmallCardsRow = () => {
           socialNumber="52"
           arrowIcon={ArrowDownIcon}
           followersGrowing="2%"
+          followersStatisticsColor="var(--bright-red)"
         />
         <SmallCard
           typeOfCount="Likes"
@@ -36,6 +38,7 @@ const SmallCardsRow = () => {
           socialNumber="5462"
           arrowIcon={ArrowUpIcon}
           followersGrowing="2257%"
+          followersStatisticsColor="var(--lime-green)"
         />
         <SmallCard
           typeOfCount="Profile Views"
@@ -44,6 +47,7 @@ const SmallCardsRow = () => {
           socialNumber="52k"
           arrowIcon={ArrowUpIcon}
           followersGrowing="1375%"
+          followersStatisticsColor="var(--lime-green)"
         />
         <SmallCard
           typeOfCount="Retweets"
@@ -52,6 +56,7 @@ const SmallCardsRow = () => {
           socialNumber="117"
           arrowIcon={ArrowUpIcon}
           followersGrowing="303%"
+          followersStatisticsColor="var(--lime-green)"
         />
         <SmallCard
           typeOfCount="Likes"
@@ -60,6 +65,7 @@ const SmallCardsRow = () => {
           socialNumber="507"
           arrowIcon={ArrowUpIcon}
           followersGrowing="553%"
+          followersStatisticsColor="var(--lime-green)"
         />
         <SmallCard
           typeOfCount="Likes"
@@ -68,6 +74,7 @@ const SmallCardsRow = () => {
           socialNumber="107"
           arrowIcon={ArrowDownIcon}
           followersGrowing="19%"
+          followersStatisticsColor="var(--bright-red)"
         />
         <SmallCard
           typeOfCount="Total Views"
@@ -76,6 +83,7 @@ const SmallCardsRow = () => {
           socialNumber="1407"
           arrowIcon={ArrowDownIcon}
           followersGrowing="12%"
+          followersStatisticsColor="var(--bright-red)"
         />
       </SmallCardsRowDiv>
     </Wrapper>

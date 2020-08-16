@@ -18,6 +18,8 @@ const BigCardsRow = () => {
         typeOfFollowers="followers"
         followersGrowing="12"
         arrowIcon={ArrowUpIcon}
+        topBorderColor="var(--fb-color)"
+        followersStatisticsColor="var(--lime-green)"
       />
       <BigCard
         userName="@nathanf"
@@ -26,6 +28,8 @@ const BigCardsRow = () => {
         typeOfFollowers="followers"
         followersGrowing="99"
         arrowIcon={ArrowUpIcon}
+        topBorderColor="var(--tt-color)"
+        followersStatisticsColor="var(--lime-green)"
       />
       <BigCard
         userName="@realnathanf"
@@ -34,6 +38,8 @@ const BigCardsRow = () => {
         typeOfFollowers="followers"
         followersGrowing="1099"
         arrowIcon={ArrowUpIcon}
+        topBorderColor="var(--it-color)"
+        followersStatisticsColor="var(--lime-green)"
       />
       <BigCard
         userName="@realnathanf"
@@ -42,6 +48,9 @@ const BigCardsRow = () => {
         typeOfFollowers="subscribers"
         followersGrowing="144"
         arrowIcon={ArrowDownIcon}
+        topBorderColor="var(--yt-color)"
+        followersStatisticsColor="var(--bright-red)"
+
       />
     </BigCardsRowDiv>
   );

@@ -15,7 +15,7 @@ const GlobalReset = createGlobalStyle`
         --bright-red: hsl(356, 69%, 56%);
         --fb-color: hsl(208, 92%, 53%);
         --tt-color: hsl(203, 89%, 53%);
-        --it-color: linear gradient hsl(37, 97%, 70%) to hsl(329, 70%, 58%);
+        --it-color: linear-gradient(90deg, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
         --yt-color: hsl(348, 97%, 39%);
 
         /* dark theme colors */

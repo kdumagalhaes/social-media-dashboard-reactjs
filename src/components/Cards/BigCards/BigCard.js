@@ -8,9 +8,12 @@ const BigCard = ({
   typeOfFollowers,
   followersGrowing,
   arrowIcon,
+  topBorderColor,
+  followersStatisticsColor
 }) => {
   return (
-    <BigCardDiv>
+    <BigCardDiv topBorderColor={topBorderColor} followersStatisticsColor={followersStatisticsColor}>
+      <div className="top-border"></div>
       <div className="social-div">
         <img src={socialIcon} alt={userName} />
         <span>{userName}</span>
@@ -18,7 +21,7 @@ const BigCard = ({
       <h2>{followersNumber}</h2>
       <span className="type-of-followers">{typeOfFollowers}</span>
       <div className="followers-statistics">
-        <img src={arrowIcon} alt="arrow icon" /> 
+        <img src={arrowIcon} alt="arrow icon" />
         <span>{followersGrowing}</span>
         <span>Today</span>
       </div>

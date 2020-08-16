@@ -8,9 +8,10 @@ const SmallCard = ({
   socialNumber,
   arrowIcon,
   followersGrowing,
+  followersStatisticsColor
 }) => {
   return (
-    <SmallCardDiv>
+    <SmallCardDiv followersStatisticsColor={followersStatisticsColor}>
       <div className="first-row">
         <span>{typeOfCount}</span>
         <img src={socialIcon} alt={iconName} />

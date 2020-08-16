@@ -1,5 +1,13 @@
 import styled from 'styled-components';
 
+export const BackgroundTop = styled.div`
+  width: 100%;
+  background-color: ${({theme}) => theme.colors.veryPaleBlue};
+  height: 250px;
+  position: absolute;
+  top: 0;
+`;
+
 export const HeaderTag = styled.header`
   width: 100%;
   max-width: 1260px;
@@ -7,6 +15,16 @@ export const HeaderTag = styled.header`
   display: flex;
   justify-content: space-between;
   padding: var(--safe-area-padding);
+  position: relative;
+
+  h1 {
+    color: ${({ theme }) => theme.colors.veryDarkBlue};
+  }
+
+  span {
+    font-weight: 700;
+    color: ${({ theme }) => theme.colors.darkGrayishBlue};
+  }
 
   @media (max-width: 375px) {
     flex-direction: column;
