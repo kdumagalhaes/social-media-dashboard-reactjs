@@ -1,10 +1,11 @@
 import React, { Fragment } from 'react';
 import GlobalReset from './GlobalReset'
+import Header from './components/Header/Header'
 
 function App() {
   return (
     <Fragment>
-      hello, world
+      <Header followers="23,004"/>
       <GlobalReset />
     </Fragment>
   );

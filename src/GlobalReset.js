@@ -33,6 +33,9 @@ const GlobalReset = createGlobalStyle`
         --l-light-grayish-blue: hsl(227, 47%, 96%);
         --l-dark-grayish-blue: hsl(228, 12%, 44%);
         --l-very-dark-blue: hsl(230, 17%, 14%);
+
+        /* padding, spaces */
+        --safe-area-padding: 0 30px 0 30px;
     }
 
     body {
