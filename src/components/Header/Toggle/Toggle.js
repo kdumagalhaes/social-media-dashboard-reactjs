@@ -6,9 +6,9 @@ import dark from '../../../styles/themes/dark'
 
 const Toggle = ({setTheme, toggleTheme}) => {
     return (
-        <ToggleDiv onClick={() => setTheme(toggleTheme)}>
+        <ToggleDiv>
             <span>Dark Mode</span>
-            <ToggleButton />
+            <ToggleButton setTheme={setTheme} toggleTheme={toggleTheme} />
         </ToggleDiv>
     )
 }
