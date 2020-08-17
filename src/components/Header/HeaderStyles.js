@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const BackgroundTop = styled.div`
   width: 100%;
-  background-color: ${({theme}) => theme.colors.veryPaleBlue};
+  background-color: ${({theme}) => theme.colors.color2};
   height: 250px;
   position: absolute;
   top: 0;
@@ -18,12 +18,12 @@ export const HeaderTag = styled.header`
   position: relative;
 
   h1 {
-    color: ${({ theme }) => theme.colors.veryDarkBlue};
+    color: ${({ theme }) => theme.colors.color5};
   }
 
   span {
     font-weight: 700;
-    color: ${({ theme }) => theme.colors.darkGrayishBlue};
+    color: ${({ theme }) => theme.colors.color4};
   }
 
   @media (max-width: 375px) {

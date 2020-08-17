@@ -1,16 +1,17 @@
 import styled from 'styled-components';
+import { darken } from 'polished'
 
 export const SmallCardDiv = styled.div`
   display: flex;
   flex-direction: column;
   padding: 25px 20px;
-  background-color: ${({ theme }) => theme.colors.lightGrayishBlue};
+  background-color: ${({ theme }) => theme.colors.color3};
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
 
   &:hover {
-    background-color: ${({ theme }) => theme.colors.mediumGrayishBlue};
+    background-color: ${({ theme }) => theme.colors.color6};
   }
 
 
@@ -26,7 +27,7 @@ export const SmallCardDiv = styled.div`
     span {
       font-weight: 700;
       font-size: 0.7rem;
-      color: ${({theme}) => theme.colors.darkGrayishBlue};
+      color: ${({theme}) => theme.colors.color4};
     }
   }
 
@@ -36,7 +37,7 @@ export const SmallCardDiv = styled.div`
 
     h3 {
       font-size: 1.9rem;
-      color: ${({theme}) => theme.colors.veryDarkBlue};
+      color: ${({theme}) => theme.colors.color5};
     }
 
     .followers-statistics {

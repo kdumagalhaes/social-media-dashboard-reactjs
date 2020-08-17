@@ -6,7 +6,7 @@ export const ToggleDiv = styled.div`
 
   span {
       margin-right: 10px;
-      color: ${({theme}) => theme.colors.almostGray};
+      color: ${({theme}) => theme.colors.color4};
   }
 
   @media (max-width: 375px) {

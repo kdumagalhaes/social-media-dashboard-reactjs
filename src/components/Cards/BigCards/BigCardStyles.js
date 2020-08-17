@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const BigCardDiv = styled.div`
   width: 100%;
-  background-color: ${({ theme }) => theme.colors.lightGrayishBlue};
+  background-color: ${({ theme }) => theme.colors.color3};
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,7 +13,7 @@ export const BigCardDiv = styled.div`
   transition: background-color 0.3s;
 
   &:hover {
-    background-color: ${({ theme }) => theme.colors.mediumGrayishBlue};
+    background-color: ${({ theme }) => theme.colors.color6};
   }
 
   .top-border {
@@ -37,14 +37,14 @@ export const BigCardDiv = styled.div`
 
     span {
       font-weight: 700;
-      color: ${({ theme }) => theme.colors.darkGrayishBlue};
+      color: ${({ theme }) => theme.colors.color4};
       font-size: 0.8rem;
     }
   }
 
   h2 {
     font-size: 3.5rem;
-    color: ${({ theme }) => theme.colors.veryDarkBlue};
+    color: ${({ theme }) => theme.colors.color5};
   }
 
   .type-of-followers {
@@ -52,7 +52,7 @@ export const BigCardDiv = styled.div`
     letter-spacing: 4px;
     font-size: 0.9rem;
     margin-bottom: 20px;
-    color: ${({ theme }) => theme.colors.darkGrayishBlue};
+    color: ${({ theme }) => theme.colors.color4};
   }
 
   .followers-statistics {

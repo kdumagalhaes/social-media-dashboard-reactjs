@@ -12,7 +12,7 @@ export const ToggleButtonDiv = styled.div`
 export const ToggleCircleDiv = styled.div`
   width: 20px;
   height: 20px;
-  background-color: ${({theme}) => theme.colors.white};
+  background-color: ${({theme}) => theme.colors.color1};
   border-radius: 50%;
   margin-left: ${({ rightMovement }) => rightMovement};
   transition: all 0.3s;

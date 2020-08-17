@@ -8,7 +8,7 @@ export const Wrapper = styled.div `
 
   h2 {
     margin-bottom: 25px;
-    color: ${({theme}) => theme.colors.darkGrayishBlue};
+    color: ${({theme}) => theme.colors.color5};
   }
 `
 
