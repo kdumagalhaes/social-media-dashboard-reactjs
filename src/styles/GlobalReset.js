@@ -43,7 +43,7 @@ const GlobalReset = createGlobalStyle`
         -webkit-font-smoothing: antialiased !important;
         font-family: 'Inter', sans-serif;
         font-size: 14px;
-        background-color: var(---l-white);
+        background-color: ${({theme}) => theme.colors.white};
     }
 
 `
