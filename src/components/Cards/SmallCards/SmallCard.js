@@ -1,5 +1,6 @@
 import React from 'react';
 import { SmallCardDiv } from './SmallCardStyles';
+import AnimatedNumber from 'react-animated-number'
 
 const SmallCard = ({
   typeOfCount,
@@ -17,7 +18,14 @@ const SmallCard = ({
         <img src={socialIcon} alt={iconName} />
       </div>
       <div className="second-row">
-        <h3>{socialNumber}</h3>
+      <AnimatedNumber 
+        value={socialNumber} 
+        component="h3"
+        stepPrecision={1}
+        duration={600}
+      >
+        {socialNumber}
+        </AnimatedNumber>
         <div className="followers-statistics">
           <img src={arrowIcon} alt="arrow icon" />
           <span>{followersGrowing}</span>
