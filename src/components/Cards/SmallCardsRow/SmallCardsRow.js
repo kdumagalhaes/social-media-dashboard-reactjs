@@ -26,7 +26,7 @@ const SmallCardsRow = () => {
           typeOfCount="Likes"
           socialIcon={FacebookIcon}
           iconName="facebook icon"
-          socialNumber="52"
+          socialNumber="52.000"
           arrowIcon={ArrowDownIcon}
           followersGrowing="2%"
           followersStatisticsColor="var(--bright-red)"
@@ -35,7 +35,7 @@ const SmallCardsRow = () => {
           typeOfCount="Likes"
           socialIcon={InstagramIcon}
           iconName="instagram icon"
-          socialNumber="5462"
+          socialNumber="5.462"
           arrowIcon={ArrowUpIcon}
           followersGrowing="2257%"
           followersStatisticsColor="var(--lime-green)"
@@ -44,7 +44,7 @@ const SmallCardsRow = () => {
           typeOfCount="Profile Views"
           socialIcon={InstagramIcon}
           iconName="instagram icon"
-          socialNumber="52k"
+          socialNumber="52.000"
           arrowIcon={ArrowUpIcon}
           followersGrowing="1375%"
           followersStatisticsColor="var(--lime-green)"
@@ -80,7 +80,7 @@ const SmallCardsRow = () => {
           typeOfCount="Total Views"
           socialIcon={YoutubeIcon}
           iconName="youtube icon"
-          socialNumber="1407"
+          socialNumber="1.407"
           arrowIcon={ArrowDownIcon}
           followersGrowing="12%"
           followersStatisticsColor="var(--bright-red)"

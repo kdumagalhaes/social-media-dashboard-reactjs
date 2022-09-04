@@ -14,7 +14,7 @@ const BigCardsRow = () => {
       <BigCard
         userName="@nathanf"
         socialIcon={FacebookIcon}
-        followersNumber="1987"
+        followersNumber="1.987"
         typeOfFollowers="followers"
         followersGrowing="12"
         arrowIcon={ArrowUpIcon}
@@ -24,7 +24,7 @@ const BigCardsRow = () => {
       <BigCard
         userName="@nathanf"
         socialIcon={TwitterIcon}
-        followersNumber="1044"
+        followersNumber="1.044"
         typeOfFollowers="followers"
         followersGrowing="99"
         arrowIcon={ArrowUpIcon}
@@ -34,7 +34,7 @@ const BigCardsRow = () => {
       <BigCard
         userName="@realnathanf"
         socialIcon={InstagramIcon}
-        followersNumber="11k"
+        followersNumber="11.000"
         typeOfFollowers="followers"
         followersGrowing="1099"
         arrowIcon={ArrowUpIcon}
@@ -44,7 +44,7 @@ const BigCardsRow = () => {
       <BigCard
         userName="@realnathanf"
         socialIcon={YoutubeIcon}
-        followersNumber="8239"
+        followersNumber="8.239"
         typeOfFollowers="subscribers"
         followersGrowing="144"
         arrowIcon={ArrowDownIcon}
